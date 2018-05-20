@@ -1,0 +1,25 @@
+{
+  "name": "webserverultralite",
+  "version": "1.0.0",
+  "description": "a little web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/probhe31/WebServerUltraLite.git"
+  },
+  "keywords": [
+    "WEB",
+    "SERVER",
+    "HTML",
+    "SERVER"
+  ],
+  "author": "probhe31",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/probhe31/WebServerUltraLite/issues"
+  },
+  "homepage": "https://github.com/probhe31/WebServerUltraLite#readme"
+}
