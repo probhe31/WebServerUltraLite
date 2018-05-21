@@ -7,16 +7,17 @@ var httpServerLite 	= require('../lib/http-server-lite');
 if(options.h || options.help)
 {
 	console.log([
-		'╔═══════════════════════════════════════╗',
-		'║           HTTP-SERVER-LITE            ║',
-		'╚═══════════════════════════════════════╝',
+		colors.cyan('╔═══════════════════════════════════════╗'),
+		colors.cyan('║           HTTP-SERVER-LITE            ║'),
+		colors.cyan('╚═══════════════════════════════════════╝'),
 		'',	
-		'usage: http-server-lite [path] [options]',
+		'usage: http-server-lite [options]',
 		'',	
 		'options:',	
-		'--p: 		Port to use [8080]',
-		'--a: 		Addres to use [0.0.0.0]',
+		colors.yellow('-p')+' 		'+'Port to use [8080]',
+		colors.yellow('-a')+' 		'+'Addres to use [0.0.0.0]',		
 		].join('\n'));
+	process.exit();
 };
 
 var 	port = options.p || 8080,		//convertilo en un global 
