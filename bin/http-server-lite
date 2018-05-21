@@ -1,8 +1,12 @@
-var parseArgs = require('minimist'),
+var globals   = require('dotenv').config();
+	parseArgs = require('minimist'),
 	colors    = require('colors/safe');
 
 const options = parseArgs(process.argv);
 var httpServerLite 	= require('../lib/http-server-lite');
+
+
+
 
 if(options.h || options.help)
 {
@@ -14,13 +18,13 @@ if(options.h || options.help)
 		'usage: http-server-lite [options]',
 		'',	
 		'options:',	
-		colors.yellow('-p')+' 		'+'Port to use [8080]',
+		colors.yellow('-p')+' 		'+'Port to use ['+process.env.DEFAULT_PORT+']',
 		colors.yellow('-a')+' 		'+'Addres to use [0.0.0.0]',		
 		].join('\n'));
 	process.exit();
 };
 
-var 	port = options.p || 8080,		//convertilo en un global 
+var 	port = options.p || process.env.DEFAULT_PORT,		
 		host = options.a || '0.0.0.0',
 		logger;
 
@@ -55,7 +59,7 @@ function listen(port)
 {
 	var parameters = 
 	{
-		logFn: logger.request
+		loggerFunction: logger.request
 	}
 
 	var server = httpServerLite.createServer(parameters);
@@ -93,3 +97,7 @@ process.on('SIGTERM', function () {
   logger.info(colors.red("http-server stopped."));
   process.exit();
 });
+
+
+
+
