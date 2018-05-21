@@ -1,0 +1,94 @@
+var parseArgs = require('minimist'),
+	colors    = require('colors/safe');
+
+const options = parseArgs(process.argv);
+var httpServerLite 	= require('../lib/http-server-lite');
+
+if(options.h || options.help)
+{
+	console.log([
+		'╔═══════════════════════════════════════╗',
+		'║           HTTP-SERVER-LITE            ║',
+		'╚═══════════════════════════════════════╝',
+		'',	
+		'usage: http-server-lite [path] [options]',
+		'',	
+		'options:',	
+		'--p: 		Port to use [8080]',
+		'--a: 		Addres to use [0.0.0.0]',
+		].join('\n'));
+};
+
+var 	port = options.p || 8080,		//convertilo en un global 
+		host = options.a || '0.0.0.0',
+		logger;
+
+logger = {
+	info: console.log,
+	request: function(req, res, error)
+	{
+		var date = new Date().toUTCString();
+		if(error)
+		{
+			logger.info('[%s] "%s %s" Error (%s): "%s"', 
+				date, 
+				colors.red(req.method), 
+				colors.red(req.url), 
+				colors.red(error.status.toString()), 
+				colors.red(error.message));
+		}
+		else
+		{
+			 logger.info('[%s] "%s %s" "%s"', 
+			 	date,
+			 	colors.cyan(req.method),
+			 	colors.cyan(req.url),
+			 	req.headers['user-agent']);
+		}
+	}
+}		
+
+listen(port);
+
+function listen(port)
+{
+	var parameters = 
+	{
+		logFn: logger.request
+	}
+
+	var server = httpServerLite.createServer(parameters);
+	server.listen(port, host, function()
+	{		
+		var canonicalHost 	= host === '0.0.0.0' ? '127.0.0.1' : host,
+			protocol 		= 'http://';		
+
+		logger.info(colors.cyan("Starting up http-server on ") + 
+					colors.yellow(protocol) + 
+					colors.yellow(canonicalHost) +
+					colors.yellow(':') +
+					colors.yellow(port));
+		logger.info("Press Ctrl-C to stop server");
+	});
+
+}
+
+
+if (process.platform === 'win32') {
+  require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+  }).on('SIGINT', function () {
+    process.emit('SIGINT');
+  });
+}
+
+process.on('SIGINT', function () {
+  logger.info(colors.red("http-server stopped."));
+  process.exit();
+});
+
+process.on('SIGTERM', function () {
+  logger.info(colors.red("http-server stopped."));
+  process.exit();
+});

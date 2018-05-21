@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/probhe31/WebServerUltraLite/issues"
   },
-  "homepage": "https://github.com/probhe31/WebServerUltraLite#readme"
+  "homepage": "https://github.com/probhe31/WebServerUltraLite#readme",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "ecstatic": "^3.2.0",
+    "minimist": "^1.2.0",
+    "union": "^0.4.6"
+  }
 }
