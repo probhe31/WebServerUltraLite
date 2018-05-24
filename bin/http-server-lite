@@ -6,8 +6,6 @@ const options = parseArgs(process.argv);
 var httpServerLite 	= require('../lib/http-server-lite');
 
 
-
-
 if(options.h || options.help)
 {
 	console.log([
@@ -97,7 +95,3 @@ process.on('SIGTERM', function () {
   logger.info(colors.red("http-server stopped."));
   process.exit();
 });
-
-
-
-
