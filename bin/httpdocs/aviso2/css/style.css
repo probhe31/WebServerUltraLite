@@ -1,0 +1,20 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.fix-image
+{
+	width: 100%;
+    height: auto;
+}

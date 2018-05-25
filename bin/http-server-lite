@@ -66,7 +66,11 @@ function listen(port)
 		var canonicalHost 	= host === '0.0.0.0' ? '127.0.0.1' : host,
 			protocol 		= 'http://';		
 
-		logger.info(colors.cyan("Starting up http-server on ") + 
+		console.log(colors.cyan("╔═══════════════════════════════════════╗"));
+		console.log(colors.cyan("║         WEB-SERVER-ULTRA-LITE         ║"));
+		console.log(colors.cyan('╚═══════════════════════════════════════╝'));
+
+		logger.info(colors.cyan("Starting up on ") + 
 					colors.yellow(protocol) + 
 					colors.yellow(canonicalHost) +
 					colors.yellow(':') +
