@@ -102,6 +102,8 @@ function clearConsole()
 	readline.clearScreenDown(process.stdout);	
 }
 
+
+//ctrl+c para finalizar la ejecución 
 if (process.platform === 'win32') {
   require('readline').createInterface({
     input: process.stdin,
