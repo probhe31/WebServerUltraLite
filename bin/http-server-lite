@@ -1,7 +1,9 @@
 var globals   = require('dotenv').config();
 	parseArgs = require('minimist'),
 	colors    = require('colors/safe');
+	os        = require('os');
 
+var ifaces = os.networkInterfaces();
 const options = parseArgs(process.argv);
 var httpServerLite 	= require('../lib/http-server-lite');
 
@@ -9,15 +11,15 @@ var httpServerLite 	= require('../lib/http-server-lite');
 if(options.h || options.help)
 {
 	console.log([
-		colors.cyan('╔═══════════════════════════════════════╗'),
-		colors.cyan('║           HTTP-SERVER-LITE            ║'),
-		colors.cyan('╚═══════════════════════════════════════╝'),
+		colors.green('╔═══════════════════════════════════════╗'),
+		colors.green('║           HTTP-SERVER-LITE            ║'),
+		colors.green('╚═══════════════════════════════════════╝'),
 		'',	
 		'usage: http-server-lite [options]',
 		'',	
 		'options:',	
 		colors.yellow('-p')+' 		'+'Port to use ['+process.env.DEFAULT_PORT+']',
-		colors.yellow('-a')+' 		'+'Addres to use [0.0.0.0]',		
+		colors.yellow('-a')+' 		'+'Addres to use [0.0.0.0]',
 		].join('\n'));
 	process.exit();
 };
@@ -55,6 +57,8 @@ listen(port);
 
 function listen(port)
 {
+	clearConsole();
+
 	var parameters = 
 	{
 		loggerFunction: logger.request
@@ -66,20 +70,37 @@ function listen(port)
 		var canonicalHost 	= host === '0.0.0.0' ? '127.0.0.1' : host,
 			protocol 		= 'http://';		
 
-		console.log(colors.cyan("╔═══════════════════════════════════════╗"));
-		console.log(colors.cyan("║         WEB-SERVER-ULTRA-LITE         ║"));
-		console.log(colors.cyan('╚═══════════════════════════════════════╝'));
-
-		logger.info(colors.cyan("Starting up on ") + 
-					colors.yellow(protocol) + 
-					colors.yellow(canonicalHost) +
-					colors.yellow(':') +
-					colors.yellow(port));
-		logger.info("Press Ctrl-C to stop server");
+		console.log(colors.green("╔═══════════════════════════════════════╗"));
+		console.log(colors.green("║         ")+colors.yellow("WEB-SERVER-ULTRA-LITE")+colors.green("         ║"));
+		console.log(colors.green('╠═══════════════════════════════════════╣'));
+		console.log(colors.green("║                                       ║"));
+		logger.info(colors.green("║")+ colors.white("  Starting up on:")+colors.green("                      ║"));
+		Object.keys(ifaces).forEach(function (dev) {
+	        ifaces[dev].forEach(function (details) {
+	          if (details.family === 'IPv4') {
+	            logger.info(colors.green("║")+ ('       >> ' + protocol + details.address + ':' + colors.green(port.toString())));
+	          }
+	        });
+      	});
+      	console.log(colors.green("║                                       ║"));
+		console.log(colors.green('╠═══════════════════════════════════════╣'));
+		console.log(colors.green("║                                       ║"));
+		logger.info(colors.green("║")+ colors.white("      Press Ctrl-C to stop server")+colors.green("      ║"));
+      	console.log(colors.green('╚═══════════════════════════════════════╝'));
+		console.log(colors.green(''));
+      	console.log(colors.red('Log:'));
 	});
 
 }
 
+function clearConsole()
+{
+	const readline = require('readline');
+	const blank = '\n'.repeat(process.stdout.rows);
+	console.log(blank);
+	readline.cursorTo(process.stdout, 0, 0);
+	readline.clearScreenDown(process.stdout);	
+}
 
 if (process.platform === 'win32') {
   require('readline').createInterface({
