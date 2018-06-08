@@ -2,6 +2,9 @@ var globals   = require('dotenv').config();
 	parseArgs = require('minimist'),
 	colors    = require('colors/safe');
 	os        = require('os');
+	logToFile = require('../lib/log/log-to-file');
+	
+
 
 var ifaces = os.networkInterfaces();
 const options = parseArgs(process.argv);
@@ -49,6 +52,8 @@ logger = {
 			 	colors.cyan(req.method),
 			 	colors.cyan(req.url),
 			 	req.headers['user-agent']);
+
+		 	logToFile(date+" "+req.method+" "+req.url+" "+req.headers['user-agent']);
 		}
 	}
 }		
