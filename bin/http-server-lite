@@ -2,9 +2,9 @@ var globals   = require('dotenv').config();
 	parseArgs = require('minimist'),
 	colors    = require('colors/safe');
 	os        = require('os');
+	isIP        = require('is-ip');
 	logToFile = require('../lib/log/log-to-file');
-	
-
+	whiteList = require('../lib/whitelist/white-list');
 
 var ifaces = os.networkInterfaces();
 const options = parseArgs(process.argv);
@@ -23,107 +23,126 @@ if(options.h || options.help)
 		'options:',	
 		colors.yellow('-p')+' 		'+'Port to use ['+process.env.DEFAULT_PORT+']',
 		colors.yellow('-a')+' 		'+'Addres to use [0.0.0.0]',
+		colors.yellow('-w')+' 		'+'Add ip to whitelist [0.0.0.0]',
 		].join('\n'));
 	process.exit();
 };
 
-var 	port = options.p || process.env.DEFAULT_PORT,		
+if(options.w)
+{	
+	if(isIP(options.w))
+	{
+		whiteList.addAddress(options.w);
+		logToFile("register ipaddress to whitelist: " + options.w);
+	}else
+	{
+		console.log(colors.red('Wrong ip address format !'));
+	}	
+}
+else
+{
+
+	var port = options.p || process.env.DEFAULT_PORT,		
 		host = options.a || '0.0.0.0',
 		logger;
 
-logger = {
-	info: console.log,
-	request: function(req, res, error)
-	{
-		var date = new Date().toUTCString();
-		if(error)
+	logger = {
+		info: console.log,
+		request: function(req, res, error)
 		{
-			logger.info('[%s] "%s %s" Error (%s): "%s"', 
-				date, 
-				colors.red(req.method), 
-				colors.red(req.url), 
-				colors.red(error.status.toString()), 
-				colors.red(error.message));
+			var date = new Date().toUTCString();
+			if(error)
+			{
+				logger.info('[%s] "%s %s" Error (%s): "%s"', 
+					date, 
+					colors.red(req.method), 
+					colors.red(req.url), 
+					colors.red(error.status.toString()), 
+					colors.red(error.message));
+			}
+			else
+			{
+				 logger.info('[%s] "%s %s" "%s"', 
+				 	date,
+				 	colors.cyan(req.method),
+				 	colors.cyan(req.url),
+				 	req.headers['user-agent']);
+
+			 	logToFile(date+" "+req.method+" "+req.url+" "+req.headers['user-agent']);
+			}
 		}
-		else
-		{
-			 logger.info('[%s] "%s %s" "%s"', 
-			 	date,
-			 	colors.cyan(req.method),
-			 	colors.cyan(req.url),
-			 	req.headers['user-agent']);
+	}		
 
-		 	logToFile(date+" "+req.method+" "+req.url+" "+req.headers['user-agent']);
-		}
-	}
-}		
+	listen(port);
 
-listen(port);
-
-function listen(port)
-{
-	clearConsole();
-
-	var parameters = 
+	function listen(port)
 	{
-		loggerFunction: logger.request
+		clearConsole();
+
+		var parameters = 
+		{
+			loggerFunction: logger.request
+		}
+
+		var server = httpServerLite.createServer(parameters);
+		server.listen(port, host, function()
+		{		
+			var canonicalHost 	= host === '0.0.0.0' ? '127.0.0.1' : host,
+				protocol 		= 'http://';		
+
+			console.log(colors.green("╔═══════════════════════════════════════╗"));
+			console.log(colors.green("║         ")+colors.yellow("WEB-SERVER-ULTRA-LITE")+colors.green("         ║"));
+			console.log(colors.green('╠═══════════════════════════════════════╣'));
+			console.log(colors.green("║                                       ║"));
+			logger.info(colors.green("║")+ colors.white("  Starting up on:")+colors.green("                      ║"));
+			Object.keys(ifaces).forEach(function (dev) {
+		        ifaces[dev].forEach(function (details) {
+		          if (details.family === 'IPv4') {
+		            logger.info(colors.green("║")+ ('       >> ' + protocol + details.address + ':' + colors.green(port.toString())));
+		          }
+		        });
+	      	});
+	      	console.log(colors.green("║                                       ║"));
+			console.log(colors.green('╠═══════════════════════════════════════╣'));
+			console.log(colors.green("║                                       ║"));
+			logger.info(colors.green("║")+ colors.white("      Press Ctrl-C to stop server")+colors.green("      ║"));
+	      	console.log(colors.green('╚═══════════════════════════════════════╝'));
+			console.log(colors.green(''));
+	      	console.log(colors.red('Log:'));
+		});
+
 	}
 
-	var server = httpServerLite.createServer(parameters);
-	server.listen(port, host, function()
-	{		
-		var canonicalHost 	= host === '0.0.0.0' ? '127.0.0.1' : host,
-			protocol 		= 'http://';		
+	function clearConsole()
+	{
+		const readline = require('readline');
+		const blank = '\n'.repeat(process.stdout.rows);
+		console.log(blank);
+		readline.cursorTo(process.stdout, 0, 0);
+		readline.clearScreenDown(process.stdout);	
+	}
 
-		console.log(colors.green("╔═══════════════════════════════════════╗"));
-		console.log(colors.green("║         ")+colors.yellow("WEB-SERVER-ULTRA-LITE")+colors.green("         ║"));
-		console.log(colors.green('╠═══════════════════════════════════════╣'));
-		console.log(colors.green("║                                       ║"));
-		logger.info(colors.green("║")+ colors.white("  Starting up on:")+colors.green("                      ║"));
-		Object.keys(ifaces).forEach(function (dev) {
-	        ifaces[dev].forEach(function (details) {
-	          if (details.family === 'IPv4') {
-	            logger.info(colors.green("║")+ ('       >> ' + protocol + details.address + ':' + colors.green(port.toString())));
-	          }
-	        });
-      	});
-      	console.log(colors.green("║                                       ║"));
-		console.log(colors.green('╠═══════════════════════════════════════╣'));
-		console.log(colors.green("║                                       ║"));
-		logger.info(colors.green("║")+ colors.white("      Press Ctrl-C to stop server")+colors.green("      ║"));
-      	console.log(colors.green('╚═══════════════════════════════════════╝'));
-		console.log(colors.green(''));
-      	console.log(colors.red('Log:'));
+
+	//ctrl+c para finalizar la ejecución 
+	if (process.platform === 'win32') {
+	  require('readline').createInterface({
+	    input: process.stdin,
+	    output: process.stdout
+	  }).on('SIGINT', function () {
+	    process.emit('SIGINT');
+	  });
+	}
+
+	process.on('SIGINT', function () {
+	  logger.info(colors.red("http-server stopped."));
+	  process.exit();
 	});
 
+	process.on('SIGTERM', function () {
+	  logger.info(colors.red("http-server stopped."));
+	  process.exit();
+	});
+
+
 }
 
-function clearConsole()
-{
-	const readline = require('readline');
-	const blank = '\n'.repeat(process.stdout.rows);
-	console.log(blank);
-	readline.cursorTo(process.stdout, 0, 0);
-	readline.clearScreenDown(process.stdout);	
-}
-
-
-//ctrl+c para finalizar la ejecución 
-if (process.platform === 'win32') {
-  require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-  }).on('SIGINT', function () {
-    process.emit('SIGINT');
-  });
-}
-
-process.on('SIGINT', function () {
-  logger.info(colors.red("http-server stopped."));
-  process.exit();
-});
-
-process.on('SIGTERM', function () {
-  logger.info(colors.red("http-server stopped."));
-  process.exit();
-});

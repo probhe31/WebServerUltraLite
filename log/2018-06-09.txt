@@ -1,17 +1,81 @@
-[2018-06-09, 04:38:50.0137 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
-[2018-06-09, 04:42:32.0241 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0380 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0383 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0384 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0427 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0433 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0439 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0446 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:42:32.0859 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:43:18.0351 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
-[2018-06-09, 04:45:18.0841 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
-[2018-06-09, 04:47:28.0905 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
-[2018-06-09, 04:53:41.0937 UTC] -> Sat, 09 Jun 2018 04:53:41 GMT GET /gatos Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:53:41.0972 UTC] -> Sat, 09 Jun 2018 04:53:41 GMT GET /css/error404.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 04:53:49.0084 UTC] -> Sat, 09 Jun 2018 04:53:49 GMT GET /gatos.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-[2018-06-09, 05:03:37.0496 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:23:33.0934 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 07:23:33.0932 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 07:23:34.0038 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 07:23:34.0053 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 07:23:34.0121 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 07:23:34.0131 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 07:23:37.0944 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 07:44:35.0653 UTC] -> register ipaddress to whitelist: cat5
+[2018-06-09, 07:49:06.0679 UTC] -> register ipaddress to whitelist: 127.0.0.1
+[2018-06-09, 07:49:35.0953 UTC] -> register ipaddress to whitelist: 127.0.0.1
+[2018-06-09, 07:49:43.0761 UTC] -> register ipaddress to whitelist: 127.0.0.1
+[2018-06-09, 07:49:59.0193 UTC] -> register ipaddress to whitelist: 192.168.1.7
+[2018-06-09, 07:50:07.0098 UTC] -> register ipaddress to whitelist: 192.168.1.6
+[2018-06-09, 07:50:19.0083 UTC] -> Sat, 09 Jun 2018 07:50:19 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:50:19.0087 UTC] -> Sat, 09 Jun 2018 07:50:19 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:50:19.0105 UTC] -> Sat, 09 Jun 2018 07:50:19 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:50:19.0111 UTC] -> Sat, 09 Jun 2018 07:50:19 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:50:19.0113 UTC] -> Sat, 09 Jun 2018 07:50:19 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:50:19.0117 UTC] -> Sat, 09 Jun 2018 07:50:19 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:50:19.0121 UTC] -> Sat, 09 Jun 2018 07:50:19 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:51:22.0374 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:51:28.0270 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:52:07.0863 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:52:19.0739 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:54:14.0521 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:01.0358 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:01.0363 UTC] -> Sat, 09 Jun 2018 07:55:01 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:01.0437 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:01.0438 UTC] -> Sat, 09 Jun 2018 07:55:01 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:01.0498 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:01.0499 UTC] -> Sat, 09 Jun 2018 07:55:01 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:06.0927 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:06.0928 UTC] -> Sat, 09 Jun 2018 07:55:06 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:08.0982 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:08.0983 UTC] -> Sat, 09 Jun 2018 07:55:08 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:45.0814 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:45.0820 UTC] -> Sat, 09 Jun 2018 07:55:45 GMT GET error405.png Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:48.0103 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:55:48.0105 UTC] -> Sat, 09 Jun 2018 07:55:48 GMT GET error405.png Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:49.0518 UTC] -> Sat, 09 Jun 2018 07:55:49 GMT GET error405.png Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:55:49.0517 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:56:21.0080 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:56:21.0080 UTC] -> Sat, 09 Jun 2018 07:56:21 GMT GET error405.png Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:56:27.0926 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:56:27.0932 UTC] -> Sat, 09 Jun 2018 07:56:27 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:57:12.0312 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:57:12.0313 UTC] -> Sat, 09 Jun 2018 07:57:12 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:57:14.0938 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:57:14.0939 UTC] -> Sat, 09 Jun 2018 07:57:14 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:57:16.0189 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 07:57:16.0189 UTC] -> Sat, 09 Jun 2018 07:57:16 GMT GET 404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:57:43.0959 UTC] -> register ipaddress to whitelist: 192.168.1.4
+[2018-06-09, 07:58:13.0347 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET / Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:13.0413 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:13.0423 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET /css/heroic-features.css Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:13.0444 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:13.0479 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:13.0495 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:13.0510 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:13.0543 UTC] -> Sat, 09 Jun 2018 07:58:13 GMT GET /images/500x325.png Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:16.0432 UTC] -> Sat, 09 Jun 2018 07:58:16 GMT GET / Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:22.0596 UTC] -> Sat, 09 Jun 2018 07:58:22 GMT GET /404 Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:29.0994 UTC] -> Sat, 09 Jun 2018 07:58:29 GMT GET /404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:31.0994 UTC] -> Sat, 09 Jun 2018 07:58:31 GMT GET /404.html Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:38.0482 UTC] -> Sat, 09 Jun 2018 07:58:38 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:41.0043 UTC] -> Sat, 09 Jun 2018 07:58:41 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:47.0321 UTC] -> Sat, 09 Jun 2018 07:58:47 GMT GET /546 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:58:47.0358 UTC] -> Sat, 09 Jun 2018 07:58:47 GMT GET /css/error404.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 07:58:51.0372 UTC] -> Sat, 09 Jun 2018 07:58:51 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:54.0513 UTC] -> Sat, 09 Jun 2018 07:58:54 GMT GET /hfyf Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:59.0072 UTC] -> Sat, 09 Jun 2018 07:58:59 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:58:59.0995 UTC] -> Sat, 09 Jun 2018 07:58:59 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:01.0314 UTC] -> Sat, 09 Jun 2018 07:59:01 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:02.0379 UTC] -> Sat, 09 Jun 2018 07:59:02 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:08.0904 UTC] -> Sat, 09 Jun 2018 07:59:08 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:20.0679 UTC] -> Sat, 09 Jun 2018 07:59:20 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:22.0186 UTC] -> Sat, 09 Jun 2018 07:59:22 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:23.0778 UTC] -> Sat, 09 Jun 2018 07:59:23 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:44.0135 UTC] -> Sat, 09 Jun 2018 07:59:44 GMT GET /hfyf Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:46.0832 UTC] -> Sat, 09 Jun 2018 07:59:46 GMT GET /hfyf Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
+[2018-06-09, 07:59:49.0149 UTC] -> Sat, 09 Jun 2018 07:59:49 GMT GET /hfyf Mozilla/5.0 (Linux; Android 7.0; SM-P580 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.68 Safari/537.36
