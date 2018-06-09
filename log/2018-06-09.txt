@@ -1,0 +1,17 @@
+[2018-06-09, 04:38:50.0137 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 04:42:32.0241 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0380 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0383 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0384 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0427 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0433 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0439 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0446 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:42:32.0859 UTC] -> Sat, 09 Jun 2018 04:42:32 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:43:18.0351 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 04:45:18.0841 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 04:47:28.0905 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
+[2018-06-09, 04:53:41.0937 UTC] -> Sat, 09 Jun 2018 04:53:41 GMT GET /gatos Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:53:41.0972 UTC] -> Sat, 09 Jun 2018 04:53:41 GMT GET /css/error404.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 04:53:49.0084 UTC] -> Sat, 09 Jun 2018 04:53:49 GMT GET /gatos.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 05:03:37.0496 UTC] -> Rejecting request from 192.168.1.4, path and query was undefined
