@@ -30,6 +30,8 @@ if(options.h || options.help)
 
 if(options.w)
 {	
+	//whiteList.checkip('192.168.1.8');
+
 	if(isIP(options.w))
 	{
 		whiteList.addAddress(options.w);
