@@ -196,3 +196,365 @@
 [2018-06-09, 15:23:36.0619 UTC] -> Sat, 09 Jun 2018 15:23:36 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
 [2018-06-09, 15:23:36.0656 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
 [2018-06-09, 15:23:36.0657 UTC] -> Sat, 09 Jun 2018 15:23:36 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0063 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0103 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0104 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0104 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0112 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0113 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0114 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0115 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0239 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0607 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0635 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0636 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0638 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0649 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0650 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0652 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0655 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:16.0685 UTC] -> Sat, 09 Jun 2018 15:26:16 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0058 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0085 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0087 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0088 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0098 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0099 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0101 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0102 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0129 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0226 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0257 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0260 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0262 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0263 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0265 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0267 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0278 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0320 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0396 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0424 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0427 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0431 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0434 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0437 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0440 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0454 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0493 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0556 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0576 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0579 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0582 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0595 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0597 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0599 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0600 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0623 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0723 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0745 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0747 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0748 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0755 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0757 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0758 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0759 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:17.0783 UTC] -> Sat, 09 Jun 2018 15:26:17 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:35.0615 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 15:26:35.0619 UTC] -> Sat, 09 Jun 2018 15:26:35 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:35.0654 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 15:26:35.0656 UTC] -> Sat, 09 Jun 2018 15:26:35 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0657 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0687 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0690 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0693 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0705 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0708 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0711 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0754 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:43.0779 UTC] -> Sat, 09 Jun 2018 15:26:43 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0522 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0551 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0557 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0562 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0567 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0572 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0583 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0589 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:49.0598 UTC] -> Sat, 09 Jun 2018 15:26:49 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0800 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0815 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0818 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0819 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0830 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0853 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0854 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0855 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:26:50.0875 UTC] -> Sat, 09 Jun 2018 15:26:50 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:36:24.0581 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 15:36:24.0589 UTC] -> Sat, 09 Jun 2018 15:36:24 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:36:24.0625 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 15:36:24.0628 UTC] -> Sat, 09 Jun 2018 15:36:24 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:39:24.0119 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 15:39:24.0120 UTC] -> Sat, 09 Jun 2018 15:39:24 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 15:39:24.0163 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 15:39:24.0164 UTC] -> Sat, 09 Jun 2018 15:39:24 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:18.0511 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:18.0557 UTC] -> Sat, 09 Jun 2018 20:21:18 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:18.0901 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:18.0917 UTC] -> Sat, 09 Jun 2018 20:21:18 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:39.0529 UTC] -> register ipaddress to whitelist: 192.168.152.1
+[2018-06-09, 20:21:48.0716 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:48.0731 UTC] -> Sat, 09 Jun 2018 20:21:48 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:48.0778 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:48.0778 UTC] -> Sat, 09 Jun 2018 20:21:48 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:50.0747 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:50.0747 UTC] -> Sat, 09 Jun 2018 20:21:50 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:50.0778 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:50.0778 UTC] -> Sat, 09 Jun 2018 20:21:50 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:50.0965 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:50.0965 UTC] -> Sat, 09 Jun 2018 20:21:50 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:50.0997 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:50.0997 UTC] -> Sat, 09 Jun 2018 20:21:50 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:51.0450 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:51.0450 UTC] -> Sat, 09 Jun 2018 20:21:51 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:51.0481 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:51.0481 UTC] -> Sat, 09 Jun 2018 20:21:51 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:51.0825 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:51.0825 UTC] -> Sat, 09 Jun 2018 20:21:51 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:51.0856 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:51.0856 UTC] -> Sat, 09 Jun 2018 20:21:51 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:51.0981 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:51.0981 UTC] -> Sat, 09 Jun 2018 20:21:51 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0012 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0012 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0122 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0122 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0137 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0153 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0278 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0278 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0309 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0309 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0450 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0450 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0481 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0481 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0575 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0575 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0606 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0606 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0715 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0715 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0747 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0747 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0840 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0840 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0856 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0872 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0965 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0965 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:52.0997 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:52.0997 UTC] -> Sat, 09 Jun 2018 20:21:52 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0106 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0106 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0137 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0137 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0231 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0231 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0262 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0262 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0372 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0372 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0403 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0403 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0512 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0512 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0544 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0544 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0653 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0653 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0684 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0684 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0794 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0794 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0825 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0825 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0950 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0950 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:53.0981 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:53.0981 UTC] -> Sat, 09 Jun 2018 20:21:53 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0153 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0153 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0169 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0184 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0294 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0294 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0325 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0325 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0434 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0450 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0465 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0465 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0590 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0590 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0622 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0622 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0778 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0778 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0793 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0793 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0950 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0950 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:54.0981 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:54.0997 UTC] -> Sat, 09 Jun 2018 20:21:54 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0106 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0106 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0137 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0137 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0262 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0262 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0293 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0293 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0418 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0418 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0450 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0450 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0559 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0559 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:21:55.0590 UTC] -> Rejecting request from 192.168.2.10, path and query was undefined
+[2018-06-09, 20:21:55.0590 UTC] -> Sat, 09 Jun 2018 20:21:55 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:23.0452 UTC] -> register ipaddress to whitelist: 192.168.2.10
+[2018-06-09, 20:22:30.0716 UTC] -> register ipaddress to whitelist: 192.168.2.10
+[2018-06-09, 20:22:33.0559 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0605 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0605 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0605 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0668 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0668 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0668 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0684 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:22:33.0871 UTC] -> Sat, 09 Jun 2018 20:22:33 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 20:23:15.0169 UTC] -> register ipaddress to whitelist: 192.168.2.12
+[2018-06-09, 20:23:44.0324 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0370 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0370 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0386 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0386 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0386 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0386 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0433 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 20:23:44.0917 UTC] -> Sat, 09 Jun 2018 20:23:44 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:33:33.0354 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 22:33:33.0715 UTC] -> Sat, 09 Jun 2018 22:33:33 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:33:35.0519 UTC] -> Rejecting request from 127.0.0.1, path and query was undefined
+[2018-06-09, 22:33:35.0523 UTC] -> Sat, 09 Jun 2018 22:33:35 GMT GET /403.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:36:47.0625 UTC] -> register ipaddress to whitelist: 192.168.2.31
+[2018-06-09, 22:36:57.0667 UTC] -> register ipaddress to whitelist: 127.0.0.1
+[2018-06-09, 22:37:14.0053 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0077 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0078 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0079 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0109 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0176 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0177 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0178 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:14.0204 UTC] -> Sat, 09 Jun 2018 22:37:14 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:37:48.0891 UTC] -> register ipaddress to whitelist: 192.168.2.4
+[2018-06-09, 22:38:48.0178 UTC] -> register ipaddress to whitelist: 192.168.2.4
+[2018-06-09, 22:38:52.0147 UTC] -> Rejecting request from 192.168.2.18, path and query was undefined
+[2018-06-09, 22:38:52.0147 UTC] -> Sat, 09 Jun 2018 22:38:52 GMT GET /403.html Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:38:52.0287 UTC] -> Rejecting request from 192.168.2.18, path and query was undefined
+[2018-06-09, 22:38:52.0303 UTC] -> Sat, 09 Jun 2018 22:38:52 GMT GET /403.html Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:38:59.0553 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET / Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0568 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0568 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0568 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0600 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0600 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0600 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0600 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:38:59.0646 UTC] -> Sat, 09 Jun 2018 22:38:59 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:01.0569 UTC] -> Rejecting request from 192.168.2.18, path and query was undefined
+[2018-06-09, 22:39:01.0569 UTC] -> Sat, 09 Jun 2018 22:39:01 GMT GET /403.html Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:39:01.0600 UTC] -> Rejecting request from 192.168.2.18, path and query was undefined
+[2018-06-09, 22:39:01.0600 UTC] -> Sat, 09 Jun 2018 22:39:01 GMT GET /403.html Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:39:47.0160 UTC] -> Sat, 09 Jun 2018 22:39:25 GMT GET /aviso2 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0175 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /aviso1 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0177 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /anuncioquenoexiste Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0182 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /anuncioquenoexiste Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0189 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /aviso1/ Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0204 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /css/error404.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0234 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /aviso1/vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0238 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /aviso1/css/style.css Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0240 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /aviso1/vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0279 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /aviso1/vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:39:47.0282 UTC] -> Sat, 09 Jun 2018 22:39:47 GMT GET /aviso1/images/banner.png Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:22.0910 UTC] -> Sat, 09 Jun 2018 22:40:22 GMT GET /anuncioquenoexiste.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:26.0237 UTC] -> Sat, 09 Jun 2018 22:40:26 GMT GET /anuncioquenoexiste.html Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:37.0320 UTC] -> Sat, 09 Jun 2018 22:40:37 GMT GET /anuncio1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0633 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0637 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0718 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0719 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/css/style.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0724 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0927 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0929 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/images/protos.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0931 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/images/terran.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0953 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/images/zerg.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:45.0961 UTC] -> Sat, 09 Jun 2018 22:40:45 GMT GET /aviso2/videos/video.mp4 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0274 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/ Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0285 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0288 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/css/style.css Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0294 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0318 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0321 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/images/protos.jpg Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0325 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/images/terran.jpg Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0327 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/images/zerg.jpg Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:40:54.0332 UTC] -> Sat, 09 Jun 2018 22:40:54 GMT GET /aviso2/videos/video.mp4 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:41:14.0790 UTC] -> Sat, 09 Jun 2018 22:41:14 GMT GET /aviso2act/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:41:14.0820 UTC] -> Sat, 09 Jun 2018 22:41:14 GMT GET /aviso2act/css/error404.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:41:38.0838 UTC] -> Sat, 09 Jun 2018 22:41:38 GMT GET /aviso1 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:42:11.0870 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:11.0879 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/images/protos.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:11.0880 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:11.0882 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/css/style.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:11.0883 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:11.0884 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/images/terran.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:11.0885 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/images/zerg.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:11.0891 UTC] -> Sat, 09 Jun 2018 22:42:11 GMT GET /aviso2/vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:42:12.0237 UTC] -> Sat, 09 Jun 2018 22:42:12 GMT GET /aviso2/videos/video.mp4 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+[2018-06-09, 22:47:02.0531 UTC] -> Sat, 09 Jun 2018 22:46:51 GMT GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0595 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0600 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /images/aviso1_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0600 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /css/heroic-features.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0602 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /images/aviso2_banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0604 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0605 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0620 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /images/500x325.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:47:02.0838 UTC] -> Sat, 09 Jun 2018 22:47:02 GMT GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0553 UTC] -> Sat, 09 Jun 2018 22:47:35 GMT GET /aviso1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0563 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0573 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso1/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0575 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0607 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0614 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/css/style.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0619 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/images/protos.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0623 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/images/terran.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0626 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso1/vendor/bootstrap/css/bootstrap.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0630 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso1/css/style.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0637 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso1/vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0644 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso1/vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0650 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/vendor/jquery/jquery.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0654 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/vendor/bootstrap/js/bootstrap.bundle.min.js Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0665 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso1/images/banner.png Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0669 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/images/zerg.jpg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:08.0675 UTC] -> Sat, 09 Jun 2018 22:48:08 GMT GET /aviso2/videos/video.mp4 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:19.0601 UTC] -> Sat, 09 Jun 2018 22:48:19 GMT GET /aviso3 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:48:19.0611 UTC] -> Sat, 09 Jun 2018 22:48:19 GMT GET /css/error404.css Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:48:24.0138 UTC] -> Sat, 09 Jun 2018 22:48:24 GMT GET /aviso4 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:24.0154 UTC] -> Sat, 09 Jun 2018 22:48:24 GMT GET /css/error404.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:24.0916 UTC] -> Sat, 09 Jun 2018 22:48:24 GMT GET /aviso4 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:48:27.0575 UTC] -> Sat, 09 Jun 2018 22:48:27 GMT GET /aviso3 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+[2018-06-09, 22:48:27.0699 UTC] -> Sat, 09 Jun 2018 22:48:27 GMT GET /aviso2 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:48:30.0821 UTC] -> Sat, 09 Jun 2018 22:48:30 GMT GET /aviso1 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+[2018-06-09, 22:48:35.0295 UTC] -> Sat, 09 Jun 2018 22:48:35 GMT GET /aviso2 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
